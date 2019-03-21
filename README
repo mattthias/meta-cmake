@@ -1,0 +1,13 @@
+OpenEmbedded/Yocto BSP layer for cmake 3.10 on rocko
+====================================================
+
+This layer contains the cmake recipe and cmake.bbclass from
+the sumo tag sumo-19.0.2.
+
+To use this layer add it _above_ the meta layer in bblayers.conf to be able to
+overwrite the cmake.bbclass. For explanation see: 
+
+https://lists.yoctoproject.org/pipermail/yocto/2012-January/004379.html
+https://stackoverflow.com/questions/51002891/overwriting-yocto-classes-through-meta-layer
+
+
